@@ -4,7 +4,7 @@ import OtpInput from './components/OtpInput';
 
 function App() {
   return (
-    <OtpInput />
+    <OtpInput otpLength={4}/>
   );
 }
 
